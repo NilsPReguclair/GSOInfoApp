@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -19,4 +19,68 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/Platzhalter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Platzhalter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Platzhalter"/>
+    <TextView
+        android:id="@+id/Platzhalter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Platzhalter2"/>
+
+    <TextView
+        android:id="@+id/txbSchulwebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Platzhalter3"
+        android:layout_centerHorizontal="false"
+        android:autoLink="all"
+        android:text="Schulwebsite: https://www.gso-koeln.de/"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txbMoodle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txbSchulwebsite"
+        android:autoLink="all"
+        android:text="Moodle: https://moodle.koeln/175055/login/index.php"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txbStundenplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txbMoodle"
+        android:autoLink="all"
+        android:text="Stundenplan: https://hektor.webuntis.com/WebUntis/?school=K175055#/basic/main/"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txbSchulportal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="Schulportal: https://portal.schule.koeln/univention/portal/"
+        android:textSize="20sp"
+        android:layout_below="@id/txbStundenplan" />
+
+    <TextView
+        android:id="@+id/txbLehrerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txbSchulportal"
+        android:autoLink="all"
+        android:text="Infos zu Lehrer=https://www.gso-koeln.de/lehrer/"
+        android:textSize="20sp" />
+</RelativeLayout>
