@@ -43,7 +43,7 @@
         android:layout_below="@id/Platzhalter3"
         android:layout_centerHorizontal="false"
         android:autoLink="all"
-        android:text="Schulwebsite: https://www.gso-koeln.de/"
+        android:text="@string/schulwebsite_https_www_gso_koeln_de"
         android:textColor="#3F51B5"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txbSchulwebsite"
         android:autoLink="all"
-        android:text="Moodle: https://moodle.koeln/175055/login/index.php"
+        android:text="@string/moodle_https_moodle_koeln_175055_login_index_php"
         android:textSize="20sp" />
 
     <TextView
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txbMoodle"
         android:autoLink="all"
-        android:text="Stundenplan: https://hektor.webuntis.com/WebUntis/?school=K175055#/basic/main/"
+        android:text="@string/stundenplan_https_hektor_webuntis_com_webuntis_school_k175055_basic_main"
         android:textSize="20sp" />
 
     <TextView
@@ -71,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="all"
-        android:text="Schulportal: https://portal.schule.koeln/univention/portal/"
+        android:text="@string/schulportal_https_portal_schule_koeln_univention_portal"
         android:textSize="20sp"
         android:layout_below="@id/txbStundenplan" />
 
@@ -81,6 +81,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txbSchulportal"
         android:autoLink="all"
-        android:text="Infos zu Lehrer=https://www.gso-koeln.de/lehrer/"
+        android:text="@string/infos_zu_lehrer_https_www_gso_koeln_de_lehrer"
         android:textSize="20sp" />
 </RelativeLayout>

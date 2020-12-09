@@ -10,4 +10,9 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="schulwebsite_https_www_gso_koeln_de">Schulwebsite: https://www.gso-koeln.de/</string>
+    <string name="moodle_https_moodle_koeln_175055_login_index_php">Moodle: https://moodle.koeln/175055/login/index.php</string>
+    <string name="stundenplan_https_hektor_webuntis_com_webuntis_school_k175055_basic_main">Stundenplan: https://hektor.webuntis.com/WebUntis/?school=K175055#/basic/main/</string>
+    <string name="schulportal_https_portal_schule_koeln_univention_portal">Schulportal: https://portal.schule.koeln/univention/portal/</string>
+    <string name="infos_zu_lehrer_https_www_gso_koeln_de_lehrer">Infos zu Lehrer=https://www.gso-koeln.de/lehrer/</string>
 </resources>
