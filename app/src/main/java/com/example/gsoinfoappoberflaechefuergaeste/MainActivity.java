@@ -1,5 +1,6 @@
 package com.example.gsoinfoappoberflaechefuergaeste;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -15,8 +16,11 @@ import androidx.navigation.ui.NavigationUI;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button Regeln;
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -45,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        Regeln = findViewById(R.id.openpdf1);
+        Regeln.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),SchulRegeln.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override
