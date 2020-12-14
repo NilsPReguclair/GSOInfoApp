@@ -17,8 +17,10 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_faecher"
-            android:icon="@drawable/side_nav_bar"
-            android:title="@string/menu_faecher" />
+            android:id="@+id/nav_dbk"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_dbk" />
+
+
     </group>
 </menu>

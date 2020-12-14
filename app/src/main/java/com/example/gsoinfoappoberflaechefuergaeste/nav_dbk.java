@@ -8,10 +8,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Faecher#newInstance} factory method to
+ * Use the {@link nav_dbk#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Faecher extends Fragment {
+public class nav_dbk extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -22,7 +22,7 @@ public class Faecher extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Faecher() {
+    public nav_dbk() {
         // Required empty public constructor
     }
 
@@ -32,11 +32,11 @@ public class Faecher extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Faecher.
+     * @return A new instance of fragment nav_dbk.
      */
     // TODO: Rename and change types and number of parameters
-    public static Faecher newInstance(String param1, String param2) {
-        Faecher fragment = new Faecher();
+    public static nav_dbk newInstance(String param1, String param2) {
+        nav_dbk fragment = new nav_dbk();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -57,6 +57,6 @@ public class Faecher extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_faecher, container, false);
+        return inflater.inflate(R.layout.fragment_datenbaken, container, false);
     }
 }
