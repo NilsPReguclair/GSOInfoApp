@@ -18,12 +18,13 @@
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/nav_dbk"
-            android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_dbk" />
         <item
             android:id="@+id/nav_swe"
-            android:icon="@drawable/android_icon_192x192"
             android:title="@string/menu_swe" />
+        <item
+            android:id="@+id/nav_BSN"
+            android:title="@string/menu_BSN" />
 
 
 

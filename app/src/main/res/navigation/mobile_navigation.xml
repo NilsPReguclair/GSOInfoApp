@@ -32,5 +32,10 @@
         android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_SWE"
         android:label="Software"
         tools:layout="@layout/fragment_software" />
+    <fragment
+        android:id="@+id/nav_BSN"
+        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_BSN"
+        android:label="Betriebsystemsnetzwerk"
+        tools:layout="@layout/fragment_nav__b_s_n" />
 
 </navigation>
