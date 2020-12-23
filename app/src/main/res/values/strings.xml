@@ -130,4 +130,6 @@
     <string name="das_wiederholt_den_vorgang_immer_wieder_bis_man_den_befehl_break_einf_gt_und_macht_man_ein_continue_wird_die_schleife_weitergef_hrt_sofern_die_while_bedingung_true_ist">Das wiederholt den Vorgang immer wieder bis man den befehl (break;) einfügt und macht man ein continue, wird die Schleife weitergeführt sofern die while-Bedingung true ist.</string>
     <string name="do_schleife">Do-Schleife</string>
     <string name="menu_BSN">Betriebsystemsnetzwerk</string>
+    <string name="menu_ept">Elektroprozesstechnik</string>
+    <string name="menu_rst">Rechensystemstechnik</string>
 </resources>

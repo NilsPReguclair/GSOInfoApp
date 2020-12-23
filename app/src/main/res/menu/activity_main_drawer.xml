@@ -26,6 +26,14 @@
             android:id="@+id/nav_BSN"
             android:title="@string/menu_BSN" />
 
+        <item
+            android:id="@+id/nav__ept"
+            android:title="@string/menu_ept" />
+
+        <item
+            android:id="@+id/nav_rst"
+            android:title="@string/menu_rst" />
+
 
 
     </group>
