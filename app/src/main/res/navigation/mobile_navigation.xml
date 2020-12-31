@@ -43,9 +43,8 @@
 
     <fragment
         android:id="@+id/nav_rst"
-        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_Rechensystemstechnik"
-        android:label="Rechensystemstechnik"
-        tools:layout="@layout/fragment_nav__rechensystemstechnik" />
+        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_rst"
+        android:label="Rechensystemstechnik" />
 
     <fragment
         android:id="@+id/nav__ept"
