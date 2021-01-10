@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,66 +14,63 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textSize="0sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/Platzhalter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/Platzhalter2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/Platzhalter"/>
-    <TextView
-        android:id="@+id/Platzhalter3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/Platzhalter2"/>
-
-    <TextView
         android:id="@+id/txbSchulwebsite"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Platzhalter3"
         android:layout_centerHorizontal="false"
         android:autoLink="all"
-        android:text="@string/schulwebsite_https_www_gso_koeln_de"
-        android:textColor="#3F51B5"
+        android:text="Schulwebsite: https://www.gso-koeln.de/"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txbMoodle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txbMoodle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txbSchulwebsite"
         android:autoLink="all"
-        android:text="@string/moodle_https_moodle_koeln_175055_login_index_php"
-        android:textSize="20sp" />
+        android:text="Moodle: https://moodle.koeln/175055/login/index.php"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txbStundenplan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txbSchulwebsite" />
 
     <TextView
         android:id="@+id/txbStundenplan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txbMoodle"
         android:autoLink="all"
-        android:text="@string/stundenplan_https_hektor_webuntis_com_webuntis_school_k175055_basic_main"
-        android:textSize="20sp" />
+        android:text="Stundenplan: https://hektor.webuntis.com/WebUntis/?school=K175055#/basic/main"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txbLehrerInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txbMoodle" />
 
     <TextView
         android:id="@+id/txbSchulportal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/txbStundenplan"
         android:autoLink="all"
-        android:text="@string/schulportal_https_portal_schule_koeln_univention_portal"
+        android:text="Schulportal: https://ucs-sso.schule.koeln/simplesamlphp/module.php/core/loginuserpass.php?AuthState=_40b51ab35261130390e01056292f175b02cbeec45e%3Ahttps%3A%2F%2Fucs-sso.schule.koeln%2Fsimplesamlphp%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fportal.schule.koeln%252Funivention%252Fsaml%252Fmetadata%26cookieTime%3D1610296219%26RelayState%3D%252Funivention%252Fportal%252F"
         android:textSize="20sp"
-        android:layout_below="@id/txbStundenplan" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txbLehrerInfo" />
 
     <TextView
         android:id="@+id/txbLehrerInfo"
@@ -81,6 +78,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txbSchulportal"
         android:autoLink="all"
-        android:text="@string/infos_zu_lehrer_https_www_gso_koeln_de_lehrer"
-        android:textSize="20sp" />
-</RelativeLayout>
+        android:text="Lehrer E-Mails: https://www.gso-koeln.de/lehrer/"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txbSchulportal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txbStundenplan" />
+</android.support.constraint.ConstraintLayout>

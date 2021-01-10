@@ -10,4 +10,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="schulwebsite_https_www_gso_koeln_de">schulwebsite: https/www.gso-koeln.de</string>
+    <string name="moodle_https_moodle_koeln_175055_login_index_php">Moodle: https://moodle.koeln/175055/login/index.php</string>
+    <string name="stundenplan_https_hektor_webuntis_com_webuntis_school_k175055_basic_main">Stundenplan: https://hektor.webuntis.com/WebUntis/?school=K175055#/basic/main</string>
+    <string name="schulportal_https_portal_schule_koeln_univention_portal">Schulportal: https://ucs-sso.schule.koeln/simplesamlphp/module.php/core/loginuserpass.php?AuthState=_40b51ab35261130390e01056292f175b02cbeec45e%3Ahttps%3A%2F%2Fucs-sso.schule.koeln%2Fsimplesamlphp%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fportal.schule.koeln%252Funivention%252Fsaml%252Fmetadata%26cookieTime%3D1610296219%26RelayState%3D%252Funivention%252Fportal%252F</string>
+    <string name="infos_zu_lehrer_https_www_gso_koeln_de_lehrer">Infos zu Lehrer: https://www.gso-koeln.de/lehrer/</string>
+    <string name="menu_dbk">Datenbanken</string>
+    <string name="menu_swe">Software</string>
+    <string name="menu_BSN">Betriebssystemsnetzwerk</string>
+    <string name="menu_ept">Elektroprozesstechnick</string>
+    <string name="menu_rst">Rechensystemstechnik</string>
 </resources>
