@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_rst">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Binär Code"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dies ist ein Code, in diesem Informationen sind, die durch Sequenzen von zwei verschiedenen Symbolen dargestellt werden. Dieser Binärcode kennt nur zwei Zahlen und diese sind die '1' und die '0', was man auch aus der Abkürzung 'Bits' ablesen kann(Bits = Binary Digits). Wenn man den Binärcode ins Dezimale oder Hexadezimale schreiben möchte muss man den Binärcode von Rechts nach links lesen und dabei muss man noch beachten, dass diese einzelnen Binären zahlen noch eine 2^n haben, sprich ganz rechts die Stelle 0 (Beim lesen des Codes fängt man mit der 0 an!) wäre dann 2^0, die Stelle 1 2^1, die stelle zwei 2^2 usw. "
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dezimalcode"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dies wäre einer der Unwandlungen, die ich oben genannt habe. Hier wird der Binär code komplett in ganzer Zahl aufgeschrieben. Zum Beispiel wäre '11111111' = 255. oder '111' =  7 usw."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hexadezimalcode"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hier läuft es etwas anders. Hier muss man nach der 4 Stelle(im Binäre natürlich die 3 Stelle ;) ) einen gedankenstrich machen und immer die 4 Binären Zahlen ins Dezimale umändern, aber dabei muss man auch beachten, das ab der '10' sich was ändert! Denn die '10' wird so aufgeschrieben sondern heißt im Hexadezimalen 'A' und dann kommt '11' als 'B' usw. "
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:src="@drawable/hexadezimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+</android.support.constraint.ConstraintLayout>

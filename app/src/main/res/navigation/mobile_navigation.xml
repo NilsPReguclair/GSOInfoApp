@@ -22,9 +22,40 @@
         android:name="com.example.gsoinfoappoberflaechefuergaeste.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
     <fragment
         android:id="@+id/regeln"
         android:name="com.example.gsoinfoappoberflaechefuergaeste.Regeln"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_blank" />
+
+    <fragment
+        android:id="@+id/nav_dbk"
+        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_dbk"
+        android:label="Datenbanken"
+        tools:layout="@layout/fragment_datenbaken" />
+
+    <fragment
+        android:id="@+id/nav_swe"
+        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_SWE"
+        android:label="Software"
+        tools:layout="@layout/fragment_software" />
+
+    <fragment
+        android:id="@+id/nav_BSN"
+        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_BSN"
+        android:label="Betriebssystemsnetzwerk"
+        tools:layout="@layout/fragment_nav__b_s_n" />
+
+    <fragment
+        android:id="@+id/nav_rst"
+        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav_rst"
+        android:label="Rechensystemstechnik" />
+
+    <fragment
+        android:id="@+id/nav__ept"
+        android:name="com.example.gsoinfoappoberflaechefuergaeste.nav__ept"
+        android:label="Elektoprozesstechnik"
+        tools:layout="@layout/fragment_nav__ept" />
+
 </navigation>

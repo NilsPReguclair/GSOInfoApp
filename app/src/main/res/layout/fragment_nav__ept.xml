@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav__ept">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volt"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dies ist die elektrische Spannung zwischen zwei Punkten eines Leiters. Dies hat das Einheitszeichen 'V' und beim URI-Modell das 'U'"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ampere"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dies hat das Einheitszeichen 'A' und beim URI-Modell das 'I' und steht für die Stromstärke. Sprich, es gibt die Strommenge an, die durch die Leitung fließt. "
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ohm"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dies hat das Einheitszeichen 'Ω' und im URI-Modell dass 'R' und steht für den Widerstand. Sprich, er bestimmt, welche elektrische Spannung erforderlich ist, um eine bestimmte Stromstärke durch einen elektrischen Leiter fließen zu lassen."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:src="@drawable/uri_modell"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="414dp"
+        android:layout_height="133dp"
+        android:src="@drawable/schaltplan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</android.support.constraint.ConstraintLayout>
